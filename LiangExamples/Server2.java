@@ -24,17 +24,14 @@ public class Server2 extends Application {
             try {
                 // Create a server socket
                 ServerSocket serverSocket = new ServerSocket(8000);
-                Platform.runLater(() ->
-                        ta.appendText("Server started at " + new Date() + '\n'));
+                Platform.runLater(() -> ta.appendText("Server started at " + new Date() + '\n'));
 
                 // Listen for a connection request
                 Socket socket = serverSocket.accept();
 
                 // Create data input and output streams
-                DataInputStream inputFromClient = new DataInputStream(
-                        socket.getInputStream());
-                DataOutputStream outputToClient = new DataOutputStream(
-                        socket.getOutputStream());
+                DataInputStream inputFromClient = new DataInputStream(socket.getInputStream());
+                DataOutputStream outputToClient = new DataOutputStream(socket.getOutputStream());
 
                 while (true) {
                     // Receive radius from the client
@@ -47,8 +44,7 @@ public class Server2 extends Application {
                     outputToClient.writeDouble(area);
 
                     Platform.runLater(() -> {
-                        ta.appendText("Radius received from client: "
-                                + radius + '\n');
+                        ta.appendText("Radius received from client: " + radius + '\n');
                         ta.appendText("Area is: " + area + '\n');
                     });
                 }
