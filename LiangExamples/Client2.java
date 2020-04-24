@@ -40,7 +40,7 @@ public class Client2 extends Application {
         primaryStage.setScene(scene); // Place the scene in the stage
         primaryStage.show(); // Display the stage
 
-        tf.setOnAction(e -> {
+        tf.setOnAction((e) -> {
             try {
                 // Get the radius from the text field
                 double radius = Double.parseDouble(tf.getText().trim());
@@ -54,8 +54,7 @@ public class Client2 extends Application {
 
                 // Display to the text area
                 ta.appendText("Radius is " + radius + "\n");
-                ta.appendText("Area received from the server is "
-                        + area + '\n');
+                ta.appendText("Area received from the server is " + area + '\n');
             }
             catch (IOException ex) {
                 System.err.println(ex);
