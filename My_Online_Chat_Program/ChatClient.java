@@ -13,13 +13,11 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class ChatClient extends Application {
-    // IO streams
     DataOutputStream toServer = null;
     DataInputStream fromServer = null;
 
-    @Override // Override the start method in the Application class
+    @Override
     public void start(Stage primaryStage) {
-        // Panel p to hold the label and text field
         BorderPane paneForTextField = new BorderPane();
         paneForTextField.setPadding(new Insets(5, 5, 5, 5));
         paneForTextField.setStyle("-fx-border-color: green");
@@ -30,25 +28,21 @@ public class ChatClient extends Application {
         paneForTextField.setCenter(tf);
 
         BorderPane mainPane = new BorderPane();
-        // Text area to display contents
         TextArea ta = new TextArea();
         mainPane.setCenter(new ScrollPane(ta));
         mainPane.setTop(paneForTextField);
 
-        // Create a scene and place it in the stage
         Scene scene = new Scene(mainPane, 450, 200);
-        primaryStage.setTitle("Chat Client"); // Set the stage title
-        primaryStage.setScene(scene); // Place the scene in the stage
-        primaryStage.show(); // Display the stage
+        primaryStage.setTitle("Chat Client");
+        primaryStage.setScene(scene);
+        primaryStage.show();
 
-        //send message to server
         tf.setOnAction((e) -> {
             try {
                 String message = tf.getText();
                 toServer.writeUTF(message);
                 toServer.flush();
-            }
-            catch (IOException ex) {
+            } catch (IOException ex) {
                 System.err.println(ex);
             }
         });
@@ -57,17 +51,16 @@ public class ChatClient extends Application {
             Socket socket = new Socket("localhost", 8000);
             fromServer = new DataInputStream(socket.getInputStream());
             toServer = new DataOutputStream(socket.getOutputStream());
-        }
-        catch (IOException ex) {
+        } catch (IOException ex) {
             ta.appendText(ex.toString() + '\n');
         }
 
-        new Thread(()->{
+        new Thread(() -> {
             try {
-                while (true){
+                while (true) {
                     String message = fromServer.readUTF();
-                    Platform.runLater(()->{
-                        ta.setText(ta.getText()+"\n"+message);
+                    Platform.runLater(() -> {
+                        ta.setText(ta.getText() + "\n" + message);
                     });
                 }
             } catch (IOException e) {
@@ -76,10 +69,6 @@ public class ChatClient extends Application {
         }).start();
     }
 
-    /**
-     * The main method is only needed for the IDE with limited
-     * JavaFX support. Not needed for running from the command line.
-     */
     public static void main(String[] args) {
         launch(args);
     }
