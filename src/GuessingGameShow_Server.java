@@ -14,7 +14,7 @@ public class GuessingGameShow_Server {
     private static final Lock lock = new ReentrantLock();
     private static final Condition bankHere = lock.newCondition();
     private static final int numPlayers = 3;
-    private static GameResult[] gr = new GameResult[numPlayers];
+    private static final GameResult[] gr = new GameResult[numPlayers];
 
     public static void main(String[] args) throws IOException {
         ServerSocket server = new ServerSocket(8000);
@@ -32,7 +32,7 @@ public class GuessingGameShow_Server {
             executor.execute(client);
         }
         executor.shutdown();
-        while (!executor.isTerminated()) ; // stall / wait for all threads to stop
+        while (!executor.isTerminated()); // stall / wait for all threads to stop
         System.out.println("\n\n\t Sort and Print threadArray: ");
         Arrays.sort(gr, new GameResult_Bank_Comparator());
         for(GameResult gpt : gr){

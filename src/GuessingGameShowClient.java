@@ -1,6 +1,5 @@
 import java.io.*;
 import java.net.Socket;
-import java.util.concurrent.TimeUnit;
 
 public class GuessingGameShowClient {
     private static final int max = 1000000;
