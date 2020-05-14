@@ -1,0 +1,24 @@
+-------- Connection with server is established --------------
+player name: guessNumber = 500000	 guessCount = 1	 playersBet = 5 Guess too HIGH! You lose 5 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 250000	 guessCount = 2	 playersBet = 0 Guess too LOW! You lose 0 playersBank = 95 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 375000	 guessCount = 3	 playersBet = 1 Guess too HIGH! You lose 1 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 312500	 guessCount = 4	 playersBet = 5 Guess too LOW! You lose 5 playersBank = 89 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 343750	 guessCount = 5	 playersBet = 3 Guess too LOW! You lose 3 playersBank = 86 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 359375	 guessCount = 6	 playersBet = 5 Guess too LOW! You lose 5 playersBank = 81 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 367187	 guessCount = 7	 playersBet = 2 Guess too HIGH! You lose 2 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 363281	 guessCount = 8	 playersBet = 5 Guess too LOW! You lose 5 playersBank = 74 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 365234	 guessCount = 9	 playersBet = 5 Guess too HIGH! You lose 5 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364257	 guessCount = 10	 playersBet = 6 Guess too LOW! You lose 6 playersBank = 63 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364745	 guessCount = 11	 playersBet = 0 Guess too LOW! You lose 0 playersBank = 63 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364989	 guessCount = 12	 playersBet = 6 Guess too HIGH! You lose 6 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364867	 guessCount = 13	 playersBet = 5 Guess too HIGH! You lose 5 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364806	 guessCount = 14	 playersBet = 2 Guess too HIGH! You lose 2 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364775	 guessCount = 15	 playersBet = 2 Guess too LOW! You lose 2 playersBank = 48 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364790	 guessCount = 16	 playersBet = 2 Guess too LOW! You lose 2 playersBank = 46 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364798	 guessCount = 17	 playersBet = 2 Guess too LOW! You lose 2 playersBank = 44 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364802	 guessCount = 18	 playersBet = 1 Guess too LOW! You lose 1 playersBank = 43 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364804	 guessCount = 19	 playersBet = 3 Guess too LOW! You lose 3 playersBank = 40 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+player name: guessNumber = 364805	 guessCount = 20	 playersBet = 3 CORRECT! You win 60 Thread: GuessingGameShowClient$GuessingGameShow_PlayerThread_withBank@2a5a7057
+>>>>> player name: You got with guessCount = 20 actualNumber = 364805 playersBank = 60
+
+Process finished with exit code 0
