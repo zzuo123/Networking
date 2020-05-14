@@ -1,0 +1,195 @@
+------------ Server is created !!! ---------------
+Player1 established connection, waiting for 2 more players to join...
+Player2 established connection, waiting for 1 more players to join...
+Player3 established connection, waiting for 0 more players to join...
+Player1 requested Bank
+Player2 requested Bank
+Player3 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Gave Bank to Player1
+Player3 requested Bank
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Gave Bank to Player2
+Player3 requested Bank
+Player2 has put bank back
+Gave Bank to Player1
+Player2 requested Bank
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Gave Bank to Player2
+Player3 requested Bank
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player3
+Player1 requested Bank
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Gave Bank to Player1
+Player3 requested Bank
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Gave Bank to Player1
+Player3 requested Bank
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Gave Bank to Player1
+Player3 requested Bank
+Player1 has put bank back
+Gave Bank to Player2
+Player1 requested Bank
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Gave Bank to Player1
+Player3 requested Bank
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Gave Bank to Player1
+Player2 requested Bank
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Gave Bank to Player3
+Player2 requested Bank
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Player3 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Player1 requested Bank
+Gave Bank to Player3
+Player3 has put bank back
+Gave Bank to Player2
+Player3 requested Bank
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player1
+Player1 has put bank back
+Gave Bank to Player3
+Player3 has put bank back
+Gave Bank to Player2
+Player2 has put bank back
+Player2 requested Bank
+Gave Bank to Player2
+Player2 has put bank back
+Player3 Finished Guessing!
+Player2 Finished Guessing!
+Player1 Finished Guessing!
+
+
+	 Sort and Print threadArray:
+Name = Player2: ActualNumber = 563347   GuessNumber = 563347   GuessCount = 20   PlayersBank = 41
+Name = Player1: ActualNumber = 364805   GuessNumber = 364805   GuessCount = 20   PlayersBank = 60
+Name = Player3: ActualNumber = 949618   GuessNumber = 949618   GuessCount = 20   PlayersBank = 60
+
+Process finished with exit code 0
